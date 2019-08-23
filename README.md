@@ -7,11 +7,11 @@ Automate lightsail instance and database backups using these AWS Lambda function
 
 Make sure that you set the required environment variables:
 
-- INSTANCE_NAME or RELATIONAL_DATABASE_NAME
-- BACKUP_DAYS_MAX: keep the last BACKUP_DAYS_MAX daily backups
-- BACKUP_WEEKS_MAX: keep at least BACKUP_WEEKS_MAX weekly backups
-- BACKUP_MONTHS_MAX: keep at least BACKUP_MONTHS_MAX monthly backups
-- LIGHTSAIL_REGION: the region where your lightsail instance is located (e.g. us-east-1)
+- `INSTANCE_NAME` or `RELATIONAL_DATABASE_NAME`
+- `BACKUP_DAYS_MAX`: keep the last `BACKUP_DAYS_MAX` daily backups
+- `BACKUP_WEEKS_MAX`: keep at least `BACKUP_WEEKS_MAX` weekly backups
+- `BACKUP_MONTHS_MAX`: keep at least `BACKUP_MONTHS_MAX` monthly backups
+- `LIGHTSAIL_REGION`: the region where your lightsail resource is located (e.g. us-east-1)
 
 ## Setup
 
