@@ -1,0 +1,11 @@
+{
+  "name": "automate-lightsail-backups",
+  "version": "1.0.0",
+  "description": "Automate AWS Lightsail instance and database backups using these AWS Lambda functions",
+  "author": "Amit-A",
+  "license": "Apache 2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.2.1"
+  }
+}
